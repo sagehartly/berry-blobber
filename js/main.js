@@ -41,7 +41,7 @@ var writeBerries = function (berries) {
   document.write('<ol>');
 
   berries.forEach(function (berries2) {
-    document.write('<h2>' + berries.name + '</h2>');
+    document.write('<h2>' + berries2.name + '</h2>');
     document.write('<dl>');
     document.write('<dd>');
 
